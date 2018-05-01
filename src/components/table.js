@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Table () {
+function Table (props) {
     return(
         <table className= "table">
             <thead className= "thead-inverse">
@@ -23,8 +23,23 @@ function Table () {
                     <td>95555</td>
                 </tr>
             </tbody>
+            <tbody>
+                <tr>
+                        <td>Birds</td>
+                        <td>Squeakums</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
         </table>
     )
 }
+
+const tableRows=props.data.map((item, index) => {
+console.log(item);
+return;
+
+});
+
 export default Table;
+
 
