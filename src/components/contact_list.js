@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ContactCard from './contact_card';
 
 // function ContactList extends Component 
 
