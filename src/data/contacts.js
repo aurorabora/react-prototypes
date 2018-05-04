@@ -1,28 +1,24 @@
-import React from 'react';
 
-
-const contactList= [
+export default[
     {
-        firstName:'kjsdfasf',
-        lastName:'adsfadf',
-        phone:'asdfdfs',
-        email:'asdfdsf'
+        firstName:'Hanh',
+        lastName:'Nguyen',
+        phone:'(123)456-789',
+        email:'hanhNguyen@gmail.com'
     },
     {
-        firstName:'dsfasdf',
-        lastName:'sdfasdf',
-        phone:'dgfdfg',
-        email:'dsfasdf'
+        firstName:'Katy',
+        lastName:'Deng',
+        phone:'(562) 439-1556',
+        email:'KatyDeng@gmail.com'
     },
     {
-        firstName:'sdfsdf',
-        lastName:'sasgg',
-        phone:'sdfsdf',
-        email:'asdfsdfaf'
+        firstName:'Jean',
+        lastName:'Paul',
+        phone:'(888)888-8888',
+        email:'Jean@Paul.com'
     }
-
 ];
 
-export default contactList;
-export default [ ];
+
 

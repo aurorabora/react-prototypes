@@ -1,6 +1,4 @@
-import contactData from '../data/contacts';
-
-const contacts= [
+export default [
     {
         firstName: 'sdfsdf',
         lastName: 'dfgdfg',
@@ -23,23 +21,5 @@ const contacts= [
     }
 ];
 
-constructor(props){
-    
-    super(props);
-
-    this.state = {
-        contacts: contactData
-    }
-
-    render(){
-
-        console.log('Contact Data:', this.state.contacts);
-        return ( 
-        
-        )
-    }
-}
 
 
-export default [];
-export contacts;
