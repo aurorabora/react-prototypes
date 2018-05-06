@@ -3,9 +3,9 @@ import React from 'react';
 export default[
     {
         firstName:'Hanh',
-        lastName:'Nguyen',
+        lastName:'Pham',
         phone:'(123)456-789',
-        email:'hanhNguyen@gmail.com'
+        email:'hanhPham@gmail.com'
     },
     {
         firstName:'Katy',
