@@ -1,9 +1,22 @@
 import React from 'react';
-import MoviesContainer from './movie_container';
+import Welcome from './welcome';
+import { Route } from 'react-router-dom';
+import Nav from '../nav';
+import OurMacarons from './our_macarons';
+import GiftsParties from './gifts_parties';
+import Contact from './contact';
 
-export default () => (
-    <div className="container">
-        <h1 className="text-center"> Axios Demo </h1>
-        <MoviesContainer/>
-    </div>
-)
+
+
+export default () => {
+
+    return (
+        <div className="container">
+            <Nav/>
+            <Route exact path="/" component={Welcome} />
+            <Route path="/our-macarons" component={OurMacarons}/>
+            <Route path="/gifts_parties" component={GiftsParties} />
+            <Route path="/contact" component={Contact}/>
+        </div>
+    );
+}
